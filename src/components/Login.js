@@ -14,7 +14,7 @@ const Login = ()=> {
             <LoginInnerContainer>
                 <img src='https://cdn.dribbble.com/users/121337/screenshots/5885287/slack.png?compress=1&resize=400x300' alt='' />
                 <h1> Sign In to iChat</h1>
-                <Button onClick={(e)=> signIn(e)}> Sgn in with Google </Button>
+                <Button onClick={ signIn }> Sgn in with Google </Button>
             </LoginInnerContainer>
         </LoginContainer>
     )
